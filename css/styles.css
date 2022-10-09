@@ -3,6 +3,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    width: 100%;
 }
 
 a {
@@ -39,6 +40,13 @@ hr {
     margin-top: 50px;
     margin-bottom: 0;
     width: 15%;
+}
+
+.mountain-img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
 }
 
 .footer-link {
@@ -84,15 +92,13 @@ hr {
 }
 
 .top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
+    display: block;
+    margin: auto 300px auto auto;
 }
 
 .bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
+    display: block;
+    margin: auto auto auto 300px;
 }
 
 .bottom-container {
@@ -100,6 +106,7 @@ hr {
     padding: 50px 0 20px;
     background-color: #F3F0D7;
     margin-top: 100px;
+    width: 100%;
 }
 
 .h2-skills {
