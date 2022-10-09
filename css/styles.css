@@ -65,6 +65,7 @@ hr {
     position: relative;
     padding-top: 100px;
     background-color: #CEE5D0;
+    max-width: 100%;
 }
 
 .programmer-text {
@@ -96,6 +97,10 @@ hr {
     margin: auto 300px auto auto;
 }
 
+.middle-container {
+    max-width: 100%;
+}
+
 .bottom-cloud {
     display: block;
     margin: auto auto auto 300px;
@@ -106,7 +111,7 @@ hr {
     padding: 50px 0 20px;
     background-color: #F3F0D7;
     margin-top: 100px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .h2-skills {
